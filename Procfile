@@ -1,1 +1,1 @@
-web: java -jar target/heroku-ci-0.0.1-SNAPSHOT.jar
+web: java $JAVA_OPTS -jar target/heroku-ci-0.0.1-SNAPSHOT.jar --server.port=$PORT
