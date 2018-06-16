@@ -18,4 +18,6 @@ spring:
     view:
       prefix: /
       suffix: .jsp
+server:
+  port: ${PORT:5000}
 
